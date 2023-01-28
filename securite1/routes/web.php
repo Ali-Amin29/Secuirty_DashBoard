@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('table');
 });
+
+Route::get('/nav', function () {
+    return view('layouts.master');
+});
+
